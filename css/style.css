@@ -134,6 +134,12 @@ body{
   background: #FFF;
 }
 
+.my-resume-slider-content{
+  float: left;
+  width: 900px;
+  margin:0 auto;
+}
+
 .my-resume{
   padding: 10em 5em;
   width: 900px;
@@ -146,20 +152,20 @@ body{
   background: #FFFFFF;
   /*box-shadow: 0 5px 55px 0 rgba(0,0,0,0.12);*/
   border-radius: 12px;
-  width: 700px;
-  height: 240px;
+  width: 900px;
+  float: left;
   position: relative;
   margin: 0 auto;
 }
 
 .my-resume-years{
-  padding: 20px;
   background: #FFFFFF;
   /*box-shadow: 0 2px 55px 0 rgba(0,0,0,0.12);*/
   float: left;
   border-radius: 12px 0px 0px 12px;
   margin-right: 20px;
   text-align: center;
+  width: 230px;
 }
 
 .my-resume-years .from,
@@ -169,19 +175,24 @@ body{
 
 .my-resume-content{
   float: left;
-  padding: 70px 10px 10px 20px;
-  width: 450px; 
+  width: 500px; 
 }
 
-.my-resume-content h3,.my-resume-content small{
+.my-resume-content h3{
   margin-top: 0px;
   color: #000;  
 
 }
 
+.my-resume-content small{
+  margin-top: 0px;
+  color: #000;  
+  font-size: 16px;
+
+}
+
 .my-resume-content p{
  font-size: 1.2em;
- color: #868686;
 }
 
 .slick-prev{
@@ -196,13 +207,14 @@ body{
 
 .my-resume-slider-container{
   position: relative;
+  float: left;
+  width: 900px;
 }
 
 #my-resume-nav{
   float: left;
+  margin-left: 30px;
   position: relative;
-  top: -50px;
-  left: 50px;
 }
 
 
@@ -298,7 +310,7 @@ body{
     }
 
     .my-resume {
-      padding: 5em 5em;
+      padding: 5em 0em;
       width: 100%;
       overflow: hidden;
       background: #FFF;
@@ -308,7 +320,19 @@ body{
     .my-resume-content {
       float: left;
       padding: 0px;
-      width: 100%;
+      margin-top: 0!important;
+      margin-left: 80px;
+      width: 180px !important;
+      text-align: center;
+    }
+
+    .my-resume-content p{
+      display: none;
+    }
+
+    .my-resume-content h3{
+      padding: 0 30px;
+      margin-bottom: 30px;
     }
 
     .my-resume-years {
@@ -320,11 +344,14 @@ body{
         margin-right: 0;
         text-align: center;
         margin-bottom: 20px;
+        width: 100%;
+        margin-left: 60px;
     }
 
+
     #my-resume-nav {
-      left: 0px;
-    } 
+      margin-left: 30px;
+    }
 
     .footer p.pull-right{
       float: left !important;
@@ -335,8 +362,81 @@ body{
 }
 @media screen and (max-width: 750px){
 
+    .hero-section {
+        padding: 5em 3em;
+        background: #FFF;
+    }
 
- 
+    .case-box {
+        float: left;
+        height: 340px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .box-1 .case-image {
+        max-width: 100%;
+        position: relative;
+        top: 10px;
+        left: 0px;
+        z-index: 5;
+    }
+
+    .box-1 .case-content {
+      position: relative;
+      width: 320px;
+      margin: 0 auto;
+      top: 40px;
+      z-index: 15;
+    }
+
+    .box-2 .case-content h2 {
+          margin: 0;
+          font-size: 16px;
+          padding: 0 40px;
+      }
+
+    .box-3 {
+      text-align: center;
+      width: 100%;
+      background: #EBECE7;
+    }
+
+    .box-2 .case-content p{
+        margin-top: 50px;
+    }
+
+    .box-3 p {
+        margin-top: 3em;
+    }
+
+    .my-resume {
+      padding: 5em 0em;
+      width: 100%;
+      overflow: hidden;
+      background: #FFF;
+      margin: 0 auto;
+    }
+
+    .my-resume-content {
+        float: left;
+        padding: 0px;
+        width: 350px;
+        margin-top: 0;
+    }
+
+    .my-resume-content h3{
+      padding: 0;
+      margin-bottom: 30px;
+    }
+
+    #my-resume-nav {
+        float: left;
+        margin-left: 90px;
+        margin-top: 30px;
+    }
+
+
 }
 @media (max-width: 767px){
     
