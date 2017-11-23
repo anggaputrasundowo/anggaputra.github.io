@@ -1,0 +1,100 @@
+body{
+  font-family: 'Karla', sans-serif;
+  background-color: #F5F8FD;
+}
+
+
+.hero-section{
+  padding: 5em;
+  background: #FFF;
+}
+
+.nav-icon{
+  width: 30px;
+  display: block;
+  margin-top: 35px;
+}
+
+.nav-icon img{
+  max-width: 100%;
+}
+
+.case-studies{
+  padding: 5em;
+}
+
+
+.case-box{
+  background: #FFFFFF;
+  box-shadow: 0 5px 55px 0 rgba(0,0,0,0.12);
+  border-radius: 11px;
+  width: 700px;
+  height: 240px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.box-1{
+}
+
+.box-2{
+}
+
+.case-image{
+  width: 230px;
+  background: #FFFFFF;
+  box-shadow: 0 2px 55px 0 rgba(0,0,0,0.12);
+  float: left;
+  position: relative;
+  top: 20px;
+  left: -20px;
+}
+
+.case-content{
+  float: left;
+  padding: 20px 10px 10px 20px;
+  width: 350px; 
+}
+
+.case-content h3{
+  margin-top: 0px;
+}
+
+.case-content p{
+ color: #868686;
+ font-size: 1.2em;
+}
+
+.case-morelink{
+  background: #F8401C;
+  padding: 15px;
+  position: absolute;
+  right: 0;
+  bottom: -15px;
+}
+
+@media screen and (max-width: 480px){
+
+
+
+}
+@media screen and (max-width: 750px){
+
+
+ 
+}
+@media (max-width: 767px){
+    
+
+
+  
+}
+@media screen and (max-width: 825px){
+
+ 
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+
+}
+

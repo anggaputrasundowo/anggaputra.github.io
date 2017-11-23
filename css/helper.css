@@ -106,3 +106,20 @@
 }
 
 
+.d-block{
+  display: block;
+}
+
+.f-left{
+  float: left;
+}
+
+.f-right{
+  float: right;
+}
+
+.t-center{
+  text-align: center;
+}
+
+
