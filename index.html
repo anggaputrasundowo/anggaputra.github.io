@@ -17,8 +17,10 @@
       <link href="css/helper.css" rel="stylesheet">
       <link rel="stylesheet" href="css/font-awesome.min.css">
       <link rel="stylesheet" href="css/themify-icons.css">
+
       <!-- custom fonts -->
       <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet"> 
 
       <!-- slick slider -->
       <link rel="stylesheet" type="text/css" href="css/slick.css"/>
@@ -28,7 +30,8 @@
 
    </head>
    <body class="page-content">
-      <div class="container-fluid hero-section">
+
+      <div class="container-fluid hero-section push">
          <div class="row">
             <div class="col-lg-12">
                 <div class="f-left">
@@ -37,14 +40,23 @@
                 </div>
                 <!--
                 <div id="main-nav">
-                    <button class="hamburger hamburger--collapse" type="button">
+                    <a href="" class="hamburger hamburger--collapse menu-link" type="button">
                       <span class="hamburger-box">
                         <span class="hamburger-inner"></span>
                       </span>
-                    </button>
+                    </a>
                 </div>
-                -->
+              -->
+               
             </div>
+             <nav id="menu" class="panel" role="navigation">
+                <ul>
+                    <li><a href="#">Design Process</a></li>
+                    <li><a href="#">Linkedin</a></li>
+                    <li><a href="#">Medium</a></li>
+                    <li><a href="#">Dribbble</a></li>
+                </ul>
+             </nav>
          </div>
       </div>
 
@@ -74,14 +86,19 @@
                 </div>
                 <img class="case-image" src="images/casestudies/case-3.png">
             </div>
+            <div class="case-box box-4">
+                <div class="case-content">
+                    <p class="d-block mt-20 mb-0">SIDE PROJECT</p>
+                    <h2>Hippocontact.com</h2>
+                    <a href="http://konsuldia.co/" class="case-link" target="_blank">View Project</a>
+                </div>
+                <img class="case-image" src="images/casestudies/case-4.png">
+            </div>
       </div>
 
       <div class="container-fluid my-resume-container">
         <div class="my-resume">
           <div class="my-resume-slider-container">
-
-            
-
             <div class="my-resume-slider-content">
               <div class="my-resume-box">
                   <div class="my-resume-years">
@@ -123,7 +140,7 @@
                   <div class="my-resume-content">
                     <small class="d-block">Konsuldia</small>
                     <h3>Co-founder &amp; UI/UX Designer</h3>
-                    <p>Konsuldia is an online platform for 1on1 consultancy. Our mission is to help people that seeking advice from mentor/experts in their fields - <a href="http://www.konsuldia.co" target="_blank">www.konsuldia.co</a></p>
+                    <p>Konsuldia is an online platform for 1on1 consultancy. Our mission is to help people that seeking advice from mentor/experts in their fields - <a href="https://hippocontact.com/" target="_blank">www.konsuldia.co</a></p>
                   </div>
               </div>
 
@@ -175,6 +192,9 @@
 
       <!-- Slick slider JS -->
       <script type="text/javascript" src="js/slick.min.js"></script>
+
+      <!-- Big Slide Menu -->
+      <script type="text/javascript" src="js/big-slide.min.js"></script>
      
 
       <script type="text/javascript">
@@ -193,11 +213,19 @@
                 dots: false
               });
 
+              /*
 
               $('.hamburger').click(function() {
                 $( this ).toggleClass( "is-active" );
+                return false;
               });
-              /*
+
+              $('.menu-link').bigSlide({
+                side: 'right',
+                menuWidth: '25.625em',
+                push: '.push'
+              });
+           
 
               $.ajaxSetup({
                   headers: {
