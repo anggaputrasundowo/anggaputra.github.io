@@ -314,6 +314,16 @@ body{
 }
 
 
+@media screen and (max-width: 320px){
+
+     .box-1 .case-content {
+      top: 30px;
+      padding: 0 3em;
+    }
+
+}
+
+
 @media screen and (max-width: 480px){
 
     .hero-section {
@@ -331,7 +341,6 @@ body{
 
     .box-1 .case-content {
       top: 30px;
-      padding: 0 3em;
     }
 
     .box-1 .case-image {
@@ -437,7 +446,6 @@ body{
       margin: 0 auto;
       top: 40px;
       z-index: 15;
-      padding: 0;
     }
 
     .box-2 .case-content h2 {
