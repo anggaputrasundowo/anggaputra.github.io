@@ -341,7 +341,6 @@ body{
       z-index: 5;
     }
 
-
     .box-2{
       width: 100%;
     }
@@ -397,7 +396,6 @@ body{
         width: 100%;
         margin-left: 60px;
     }
-
 
     #my-resume-nav {
       margin-left: 30px;
@@ -455,6 +453,7 @@ body{
     .box-4 {
       text-align: center;
       width: 100%;
+      background: transparent;
     }
 
     .box-2 .case-content p{
