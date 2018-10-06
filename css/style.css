@@ -179,6 +179,7 @@ body{
 .box-4 .case-image{
   max-width: 100%;
   margin: 0 auto;
+  font-weight: 700;
 }
 
 .case-link{
