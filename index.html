@@ -17,6 +17,7 @@
       <meta name="author" content="">
       <link rel="icon" href="../../favicon.ico">
       <!-- Bootstrap core CSS -->
+       <link href="css/bootstrap-reboot.min.css" rel="stylesheet">
       <link href="css/bootstrap.min.css" rel="stylesheet">
       <!-- Custom CSS -->
       <link href="css/style.css" rel="stylesheet">
@@ -25,13 +26,10 @@
       <link rel="stylesheet" href="css/themify-icons.css">
 
       <!-- custom fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet">
+      <!-- <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet"> -->
 
-      <!-- slick slider -->
-      <link rel="stylesheet" type="text/css" href="css/slick.css"/>
-
-      <!-- Hamburger CSS -->
-      <link rel="stylesheet" type="text/css" href="css/hamburger.css"/>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;900&display=swap" rel="stylesheet">
 
 
       <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -53,39 +51,20 @@
             <div class="col-lg-9 col-xs-12">
                 <div class="f-left">
                   <h1 class="hero-text">Hello There.</h1>
-                  <h5 class="mt-10">I'm Angga, a digital designer based in Indonesia</h5>
+                  <h6 class="mt-10">I'm Angga, a digital designer based in Indonesia</h6>
+                   <a href="https://medium.com/angga-portfolio/playbook-for-my-design-process-a4626f2b385" target="_blank" class="btn btn-top mt-30">My Design Process</a>
                 </div>
-                <!--
-                <div id="main-nav">
-                    <a href="" class="hamburger hamburger--collapse menu-link" type="button">
-                      <span class="hamburger-box">
-                        <span class="hamburger-inner"></span>
-                      </span>
-                    </a>
-                </div>
-              -->
             </div>
             <div class="col-lg-2  col-xs-12">
-              <a href="https://medium.com/angga-portfolio/playbook-for-my-design-process-a4626f2b385" target="_blank" class="btn btn-top">My Design Process</a>
             </div>
 
-            <!--
-             <nav id="menu" class="panel" role="navigation">
-                <ul>
-                    <li><a href="#">Design Process</a></li>
-                    <li><a href="#">Linkedin</a></li>
-                    <li><a href="#">Medium</a></li>
-                    <li><a href="#">Dribbble</a></li>
-                </ul>
-             </nav>
-           -->
          </div>
       </div>
 
       <div class="container-fluid case-studies">
             <div class="case-box box-1">
                 <div class="case-content">
-                    <p class="d-block mt-20 mb-0">CASE STUDY, 2017</p>
+                    <small class="d-block mt-20 mb-0">CASE STUDY, 2017</small>
                     <h2>SmartDocs — A fintech hackathon project</h2>
                     <a href="https://medium.com/angga-portfolio/fintech-hackathon-project-b763bd022f39" class="case-link" target="_blank">View Detail</a>
                 </div>
@@ -94,22 +73,12 @@
 
             <div class="case-box box-2 t-center">
               <div class="case-content t-center">
-                    <p class="d-block mt-100 mb-0">CASE STUDY, 2016</p>
-                    <h2>Online to Offline Checkout Page</h2>
+                    <small class="d-block mt-100 mb-0">CASE STUDY, 2016</small>
+                    <h2>Online to Offline E-Commerce</h2>
                     <a href="https://medium.com/angga-portfolio/designing-checkout-page-for-online-to-offline-e-commerce-site-a99dfd2c64aa" class="case-link" target="_blank">View Detail</a>
               </div>
               <img class="case-image" src="images/casestudies/case-2.png">
           </div>
-         <!--
-           <div class="case-box box-3">
-                <div class="case-content">
-                    <p class="d-block mt-20 mb-0">PERSONAL PROJECT</p>
-                    <h2>Konsuldia.co</h2>
-                    <a href="http://konsuldia.co/" class="case-link" target="_blank">Check it out!</a>
-                </div>
-                <img class="case-image" src="images/casestudies/case-3.png">
-            </div>
-         -->
       </div>
 
       <div class="container-fluid">
@@ -125,83 +94,12 @@
           </div>
       </div>
 
+       <script src="js/jquery-3.5.1.min.js"></script>
+
       <!-- Bootstrap core JavaScript
          ================================================== -->
       <!-- Placed at the end of the document so the pages load faster -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
       <script src="js/bootstrap.min.js"></script>
-
-      <!-- Slick slider JS -->
-      <script type="text/javascript" src="js/slick.min.js"></script>
-
-      <!-- Big Slide Menu -->
-      <script type="text/javascript" src="js/big-slide.min.js"></script>
-     
-
-      <script type="text/javascript">
-
-
-         $(document).ready(function () {
-
-              $('.my-resume-slider-content').slick({
-                infinite: true,
-                speed: 500,
-                fade: true,
-                cssEase: 'linear',
-                arrows: true,
-                prevArrow: '.slick-prev',
-                nextArrow: '.slick-next',
-                dots: false
-              });
-
-             /*
-
-              $('.hamburger').click(function() {
-                $( this ).toggleClass( "is-active" );
-                return false;
-              });
-
-              $('.menu-link').bigSlide({
-                side: 'right',
-                menuWidth: '25.625em',
-                push: '.push'
-              });
-           
-
-              $.ajaxSetup({
-                  headers: {
-                    'Authorization': "Bearer 09a6bf420f371b7506def97736e507f55b06f85d8e69e02eaeb59b3aa7794640"
-                  }
-              });
-
-              $.ajax({ 
-                type: 'GET', 
-                url: 'https://api.dribbble.com/v1/users/anggaputra/shots', 
-                ddataType: "json",
-                success: function (data) { 
-                    
-                     $('.dribbble-feed .loader').hide();
-                
-                     var results = data;
-
-                     for (var i=0;i<10;++i)
-                     {
-                     
-                        $('#dribbble-shots').append(
-                            "<a target='_blank' href='"+ results[i].html_url +"' class='box-item'>\
-                              <div class='pict-item'><img class='img-responsive' src="+ results[i].images.teaser +"></div>\
-                            </a>"
-                        );
-                     }
-                }
-              });
-               */
-              
-
-         });
-    
-      </script>
 
 
    </body>

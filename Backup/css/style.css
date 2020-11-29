@@ -1,11 +1,11 @@
 body{
-  font-family: 'Inter', sans-serif;
+  font-family: 'Karla', sans-serif;
   background-color: #F5F8FD;
 }
 
 
 .hero-section{
-  padding: 8em 5em;
+  padding: 10em 5em;
   background: #FFF;
   position: relative;
 }
@@ -41,9 +41,9 @@ body{
     background-color: transparent;
     border: 3px solid #000;
     color: #000;
-    padding: 10px 20px;
+    padding: 10px 35px;
     border-radius: 4px;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 700;
     margin: 20px 0;
 
@@ -163,12 +163,6 @@ body{
   color: inherit;
   text-decoration: underline;
   display: inline-block;
-  font-size: .9em;
-}
-
-.case-link:hover{
-  color: #000;
-  text-decoration: none!important;
 }
 
 
@@ -297,7 +291,6 @@ body{
 
 .footer{
   padding: 30px 40px 20px;
-  font-size: .8em;
 }
 
 .footer ul{
