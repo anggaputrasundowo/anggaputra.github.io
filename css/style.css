@@ -183,10 +183,12 @@ a{
 
 .link1:hover{
   background: #EDEDB9;
+  color: #F8401C;
 }
 
 .link2:hover{
   background: #F8401C;
+  color: #EDEDB9;
 }
 
 /* ---- My Resume ---- */
