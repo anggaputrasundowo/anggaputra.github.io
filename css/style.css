@@ -57,6 +57,11 @@ a{
     -moz-osx-font-smoothing: grayscale;
 }
 
+.btn-top:hover{
+  background: #000;
+  color: #fff;
+}
+
 
 /* ---- Case Studies ---- */
 
@@ -167,13 +172,22 @@ a{
   text-decoration: underline;
   display: inline-block;
   font-size: .9em;
+  padding: 2px 4px;
+  border-radius: 4px;
 }
 
 .case-link:hover{
-  color: #000;
+
   text-decoration: none!important;
 }
 
+.link1:hover{
+  background: #EDEDB9;
+}
+
+.link2:hover{
+  background: #F8401C;
+}
 
 /* ---- My Resume ---- */
 .my-resume-container{
