@@ -69,10 +69,15 @@ a{
   margin: 10px 0 0 0;
 }
 
+#top-nav li{
+  clear: both;
+  display: block;
+}
+
 #top-nav a{
   color: #c1c1c1;
   font-size: 1.4em;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 #top-nav li .home-nav{
@@ -81,7 +86,7 @@ a{
   background: #c1c1c1;
   float: left;
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 #top-nav li a:hover{
