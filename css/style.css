@@ -98,6 +98,26 @@ a{
   background: #000!important;
 }
 
+/* ----- Latest blog ------*/
+.latest-blog{
+  background: #FFF;
+  position: relative;
+  border-top: 4px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+.post{
+  padding: 2em 4em 2em;
+}
+
+.post > a{
+  color: #000;
+}
+
+.post > small{
+  color: #c1c1c1;
+}
+
 /* ---- Case Studies ---- */
 
 
@@ -379,6 +399,8 @@ a{
       margin-top: 30px;
     }
 
+    
+
 }
 
 
@@ -430,6 +452,10 @@ a{
       margin-top: 5px;
     }
 
+    .post{
+      padding: 2em 2em 3em;
+    }
+
     .my-resume {
       padding: 5em 0em;
       width: 100%;
@@ -477,6 +503,7 @@ a{
       float: left !important;
       margin-top: 10px;
     }
+    
 
 
 }
